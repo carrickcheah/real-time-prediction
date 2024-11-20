@@ -83,7 +83,7 @@ The best-performing model is then pushed to the model registry for deployment.
 
 ## Build rest-api
 
-![Slide9](./image/Slide9.jpg)  
+![Slide9](./image/Slide9.JPG)  
 In the inference pipeline, we deploy the REST API to serve predictions.  
 
 Real-time features are deployed to the cloud to ensure fast and reliable predictions.  
