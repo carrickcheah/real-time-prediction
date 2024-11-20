@@ -51,10 +51,10 @@ Additionally, we set up a training job to ensure the model remains up-to-date wi
 &nbsp;
 &nbsp;
 
-## Total microservices in the system
+## Microservices in the system
 
 ![Slide6](./image/Slide6.JPG)
-Within this system, we're going to build five microservices. These microservices will handle the core functionalities of the system, ensuring modularity and scalability.  
+Within this system, we're going to build 5 microservices. These microservices will handle the core functionalities of the system, ensuring modularity and scalability.  
 &nbsp;
 &nbsp;
 
@@ -83,7 +83,7 @@ The best-performing model is then pushed to the model registry for deployment.
 
 ## Build rest-api
 
-![Slide9](./image/Slide9.JPG)  
+![Slide9](./image/Slide9.jpg)  
 In the inference pipeline, we deploy the REST API to serve predictions.  
 
 Real-time features are deployed to the cloud to ensure fast and reliable predictions.  
