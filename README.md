@@ -5,7 +5,8 @@ This repository contains code and resources to predict Bitcoin prices.
 ## Overview
 
 ![Portfolios3](./image/portfolios3.jpg)  
-Hi, I’m Carrick. I’m excited to share how we can build a real-time machine learning system for Bitcoin price prediction.  ---
+Hi, I’m Carrick. I’m excited to share how we can build a real-time machine learning system for Bitcoin price prediction.  
+&nbsp;
 
 ## System Design
 
@@ -16,7 +17,8 @@ Our system revolves around 3 main components:
 
 Feature Pipeline – Prepares and transforms raw data.  
 Training Pipeline – Builds and optimizes the machine learning models.  
-Inference Pipeline – Delivers real-time predictions. Let’s look at each in detail.  ---
+Inference Pipeline – Delivers real-time predictions. Let’s look at each in detail.  
+&nbsp;
 
 ## Feature pipeline
 
@@ -27,6 +29,7 @@ t_ingest: It connects to the broker’s WebSocket, fetches live data, and sends 
 t_transform: This service processes the raw data into OHLC format.  
 t_push: Finally, it pushes the cleaned data to the feature store.  
 Once built, these microservices are dockerized to ensure seamless integration and scalability.  ---
+&nbsp;&nbsp;&nbsp;
 
 ## Training pipeline
 
