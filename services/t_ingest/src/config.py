@@ -1,0 +1,3 @@
+def example_function(param1, param2):
+    # ... existing code ...
+    pass
