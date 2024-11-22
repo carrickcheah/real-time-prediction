@@ -2,6 +2,7 @@ from typing import List
 from loguru import logger
 from quixstreams import Application
 from src.kraken_websocket_api import ( KrakenWebsocketAPI,Trade )
+from src.config import config
 
 # create a new ingest service
 def t_ingest(
@@ -53,7 +54,7 @@ def t_ingest(
 if __name__ == "__main__":
 
     t_ingest(
-        kafka_broker_address="localhost:19092",
-        kafka_topic="trade",
-        product_id="BTC/USD"
+        kafka_broker_address=config.kafka_broker_address,
+        kafka_topic=config.kafka_topic,
+        product_id=config.product_id,   
     )

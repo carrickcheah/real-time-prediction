@@ -5,7 +5,18 @@ This repository contains code and resources to predict Bitcoin prices.
 ## Overview
 
 ![Portfolios3](./image/portfolios3.jpg)  
-Hi, I’m Carrick. I’m excited to share how we can build a real-time machine learning system for Bitcoin price prediction.  
+**Table of contents**
+1.Project Overview
+2.System Design
+3.Feature Pipeline
+4.Training Pipeline
+5.Inference Pipeline
+6.Microservices in the System
+7.Engineering Data
+8.Train and Retrain for Continuous Improvement
+9.Build REST API
+10.Deployment on Cloud
+11.*Coding Session*
 &nbsp;
 &nbsp;
 
@@ -99,9 +110,20 @@ The system is now fully operational and ready for real-time use.
 &nbsp;
 &nbsp;
 
-## Thank You
+## Coding Sessions
 
-![Slide11](./image/Slide11.jpg)  
-Thank you! If you'd like to exchange feedback or discuss this project further, feel free to connect with me. I look forward to hearing your thoughts.  
-&nbsp;
-&nbsp;
+### Task 1: Create a Feature Pipeline with 3 Microservices and Dockerize Them
+
+t_ingest  
+
+- [X] Setup Redpanda locally, mske it up and running  
+    Redpanda is an event streaming platform: it provides the infrastructure for streaming real-time data.  
+
+- [X] poetry add quixstreams  
+    Test send event for processing data in Kafka . Later use to transfer data in real time.  
+
+- [X] Connect to the Kraken API to download data  
+- [X] Push fake data to redpanda  
+- [X] Extract config parameters  
+- [ ] Dockerize it  
+![docker](./image/docker.jpg)  
