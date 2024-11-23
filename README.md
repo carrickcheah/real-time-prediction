@@ -5,18 +5,18 @@ This repository contains code and resources to predict Bitcoin prices.
 ## Overview
 
 ![Portfolios3](./image/portfolios3.jpg)  
-**Table of contents**
-1.Project Overview
-2.System Design
-3.Feature Pipeline
-4.Training Pipeline
-5.Inference Pipeline
-6.Microservices in the System
-7.Engineering Data
-8.Train and Retrain for Continuous Improvement
-9.Build REST API
-10.Deployment on Cloud
-11.*Coding Session*
+**Table of contents**  
+1.Project Overview  
+2.System Design  
+3.Feature Pipeline  
+4.Training Pipeline  
+5.Inference Pipeline  
+6.Microservices in the System  
+7.Engineering Data  
+8.Train and Retrain for Continuous Improvement  
+9.Build REST API  
+10.Deployment on Cloud  
+11.*Coding Session*  
 &nbsp;
 &nbsp;
 
@@ -123,9 +123,10 @@ t_ingest
     Test send event for processing data in Kafka . Later use to transfer data in real time.  
 
 - [X] Connect to the Kraken API to download data  
-- [X] Push fake data to redpanda  
 - [X] Extract config parameters  
-- [ ] Dockerize it  
+- [X] Push data to kafka topic  
+![live_data](./image/live_data.jpg)  
+  
+- [X] Dockerize it  
 ![docker](./image/docker.jpg)  
 ![docker_ingest](./image/docker_ingest.jpg)  
-
