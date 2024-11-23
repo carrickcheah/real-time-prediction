@@ -127,3 +127,5 @@ t_ingest
 - [X] Extract config parameters  
 - [ ] Dockerize it  
 ![docker](./image/docker.jpg)  
+![docker_ingest](./image/docker_ingest.jpg)  
+

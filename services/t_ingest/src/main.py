@@ -20,8 +20,7 @@ def t_ingest(
 
     """
 
-
-     # Create an Application instance with Kafka config
+    # Create an Application instance with Kafka config
     app = Application(broker_address=kafka_broker_address)
 
     # Define a topic "my_topic" with JSON serialization
