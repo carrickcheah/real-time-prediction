@@ -10,3 +10,5 @@ run: build
 		--network=redpanda_network \
 		--env-file prod.env \
 		t_ingest
+
+#"C:\Program Files\Git\bin\bash.exe"

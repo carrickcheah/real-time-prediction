@@ -114,7 +114,7 @@ The system is now fully operational and ready for real-time use.
 
 ### Task 1: Create a Feature Pipeline with 3 Microservices and Dockerize Them
 
-t_ingest  
+#### First micro service : t_ingest
 
 - [X] Setup Redpanda locally, mske it up and running  
     Redpanda is an event streaming platform: it provides the infrastructure for streaming real-time data.  
@@ -128,5 +128,9 @@ t_ingest
 ![live_data](./image/live_data.jpg)  
   
 - [X] Dockerize it  
-![docker](./image/docker.jpg)  
 ![docker_ingest](./image/docker_ingest.jpg)  
+
+#### Build next mirco services: t_transform
+
+- [X] Read data from kafka_input_topic, transform data and write it to kafka_output_topic.  
+- [X] Dockerize it  
