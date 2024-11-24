@@ -6,7 +6,10 @@ authors = ["carrickcheah <carrick113@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.13"
+loguru = "^0.7.2"
+hopsworks = "^3.7.0"
+quixstreams = "^2.10.0"
 
 
 [build-system]

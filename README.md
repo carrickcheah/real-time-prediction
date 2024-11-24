@@ -1,6 +1,6 @@
-# Project: Predict Bitcoin Price
+# Project: Real-time ML predict BTC with XGboost
 
-This repository contains code and resources to predict Bitcoin prices.
+This project develops a real-time machine learning system for Bitcoin price prediction, using Redpanda-based pipelines, XGBoost for training, REST APIs for predictions, and scalable cloud deployment.
 
 ## Overview
 
@@ -134,4 +134,21 @@ The system is now fully operational and ready for real-time use.
 
 - [X] Read data from kafka_input_topic, transform data and write it to kafka_output_topic.  
 - [X] Dockerize it  
-.
+
+#### 1.3 t_push
+
+- [X] Push data to hopsworks feature store  
+- [X] Dockerize it  
+
+### Task 2 : Training pipeline
+
+![t001](./image/t001.png)  
+The training process has begun using the XGBoost model on a dataset of 102,751 rows, split 70:30. Added features include technical indicators like 'ADX,' 'APO,' 'AROON_Up,' 'AROON_Down,' and others  
+
+![t002](./image/t002.png)  
+I use CometML to track, compare, explain, and optimize machine learning models and experiments. It enables logging metrics, parameters, media, and more during training, while providing a visually appealing web interface for monitoring experiments  
+
+![t003](./image/t003.png)  
+I trained the dataset multiple times, experimenting with different hyperparameters, training/testing set ratios, feature combinations, and technical indicator selections. Additionally, I adjusted learning rates, tree depths, and data preprocessing methods to optimize model performance.  
+If the model achieves better prediction performance, it is pushed to the model registry for versioning and deployment  
+
