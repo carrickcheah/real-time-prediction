@@ -145,10 +145,26 @@ The system is now fully operational and ready for real-time use.
 ![t001](./image/t001.png)  
 The training process has begun using the XGBoost model on a dataset of 102,751 rows, split 70:30. Added features include technical indicators like 'ADX,' 'APO,' 'AROON_Up,' 'AROON_Down,' and others  
 
+&nbsp;
+&nbsp;
+
 ![t002](./image/t002.png)  
 I use CometML to track, compare, explain, and optimize machine learning models and experiments. It enables logging metrics, parameters, media, and more during training, while providing a visually appealing web interface for monitoring experiments  
+
+&nbsp;
+&nbsp;
 
 ![t003](./image/t003.png)  
 I trained the dataset multiple times, experimenting with different hyperparameters, training/testing set ratios, feature combinations, and technical indicator selections. Additionally, I adjusted learning rates, tree depths, and data preprocessing methods to optimize model performance.  
 If the model achieves better prediction performance, it is pushed to the model registry for versioning and deployment  
 
+&nbsp;
+&nbsp;
+
+### Task 3 : Inference pipeline
+
+![t004](./image/t004.png)  
+The system deploys real-time features and training jobs to Quix Cloud, alongside a REST API, ensuring seamless predictions and efficient updates for real-time machine learning performance.
+
+&nbsp;
+&nbsp;
