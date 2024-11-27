@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["carrick113 <carrick113@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+hopsworks = "^3.7.0"
+pydantic-settings = "^2.6.0"
+scikit-learn = "^1.5.2"
+comet-ml = "^3.47.1"
+loguru = "^0.7.2"
+xgboost = "^2.1.2"
+graphviz = "^0.20.3"
+optuna = "^4.0.0"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+pandas-ta = "^0.3.14b0"
+TA_Lib = {path = "C:/Users/roy12/src/real-time-ml-system-20241026/services/price_predictor/TA_Lib-0.4.32-cp310-cp310-win_amd64.whl"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

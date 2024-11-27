@@ -1,0 +1,44 @@
+Download file
+https://github.com/cgohlke/talib-build/
+https://github.com/cgohlke/talib-build/releases
+
+Download ur Windows version, and save the file in price_predictor folder.
+
+run in terminal:
+Either 1 below,
+poetry add C:\\Users\\roy12\\src\\real-time-ml-system-20241026\\services\\price_predictor\\TA_Lib-0.4.32-cp310-cp310-win_amd64.whl
+poetry add "C:\Users\roy12\src\real-time-ml-system-20241026\services\price_predictor\TA_Lib-0.4.32-cp310-cp310-win_amd64.whl"
+poetry add C:/Users/roy12/src/real-time-ml-system-20241026/services/price_predictor/TA_Lib-0.4.32-cp310-cp310-win_amd64.whl
+
+Done and Check Version
+$ python -c "import talib; print(talib.__version__)"
+
+
+...................
+discord sharing
+
+Hi Bro! I faced the same issue before, here’s how I solved it. Hope if it can works for you.
+
+Step 1: Switch to Git Bash
+If you’re using PowerShell in your terminal (default in Windows), switch to Git Bash. I had multiple issues with PowerShell, but everything worked smoothly once I switched to Git Bash.
+
+Step 2: Download the `TA-Lib` Wheel File
+1. Visit the following links to download the appropriate `TA-Lib` file for your Windows version:
+   - [TA-Lib Release Files](https://github.com/cgohlke/talib-build/releases)
+
+Download ur Windows version, and save the file in price_predictor folder.
+
+
+Step 3: Install with Poetry
+poetry add c:ur_file_path_ur_python_version. (ur python is 3.11,change cp310 to 311)
+In your terminal, use one of these commands (choose the one that matches your file path format):
+Either 1:
+```bash
+poetry add C:\\Users\\roy12\\src\\real-time-ml-system-20241026\\services\\price_predictor\\TA_Lib-0.4.32-cp310-cp310-win_amd64.whl
+poetry add "C:\Users\roy12\src\real-time-ml-system-20241026\services\price_predictor\TA_Lib-0.4.32-cp310-cp310-win_amd64.whl"
+poetry add C:/Users/roy12/src/real-time-ml-system-20241026/services/price_predictor/TA_Lib-0.4.32-cp310-cp310-win_amd64.whl
+
+Step 4:
+Done and Check Version
+$ python -c "import talib; print(talib.__version__)"
+

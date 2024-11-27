@@ -16,7 +16,7 @@ This project develops a real-time machine learning system for Bitcoin price pred
 8.Train and Retrain for Continuous Improvement  
 9.Build REST API  
 10.Deployment on Cloud  
-11.*Coding Session*  
+11.Walkthrough process and summary  
 &nbsp;
 &nbsp;
 
@@ -110,7 +110,7 @@ The system is now fully operational and ready for real-time use.
 &nbsp;
 &nbsp;
 
-## Coding Sessions
+## 11.Walkthrough process and summary
 
 ### Task 1: Create a Feature Pipeline with 3 Microservices and Dockerize Them
 

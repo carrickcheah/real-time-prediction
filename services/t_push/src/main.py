@@ -66,11 +66,6 @@ def topic_to_feature_store(
                 feature_group_primary_keys,
                 feature_group_event_time,
             )
-
-            # breakpoint()
-
-            # we need to push the value to the Feature Store here
-
             
             # Store the offset of the processed message on the Consumer 
             # for the auto-commit mechanism.
